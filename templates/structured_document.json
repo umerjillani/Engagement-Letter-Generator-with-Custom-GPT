@@ -1,0 +1,357 @@
+{
+    "header": {
+        "logo_ref": "images/logo.png",
+        "company_details": {
+            "phone": "(480) 947-3321",
+            "address": "6750 E. Camelback Road, Suite 103",
+            "city_state_zip": "Scottsdale, AZ 85251"
+        }
+    },
+    "footer": {
+        "image_ref": "images/footer_img.png"
+    },
+    "dynamic_fields": {
+        "date": "{header.date}",
+        "client_name": "{header.client_name}",
+        "company_name": "{header.company_name}",
+        "contact_number": "{header.contact_number}",
+        "client_email": "{header.client_email}",
+        "address_lines": "{header.address_lines}"
+    },
+    "subject_line": "{subject_line}",
+    "salutation": "{salutation}",
+    "sections": {
+        "introduction": {
+            "description": "This letter agreement confirms the terms and conditions of the engagement between Resolute Commercial Services, LLC (\"RESOLUTE\"), and {header.client_name} (\"CLIENT\"), including the scope of services to be performed and the basis of compensation for those services. CLIENT has engaged RESOLUTE to act as the Financial Advisor (\"FA\") to {header.company_name} (\"COMPANY\") with respect to COMPANY'S turnaround/restructuring efforts and with respect to such other operational and financial matters as to which the CLIENT and RESOLUTE may agree in writing during the term of this engagement. Upon execution of this letter by each of the parties below, this letter shall constitute a binding agreement (the \"Agreement\") between CLIENT and RESOLUTE."
+        },
+        "description_of_services": {
+            "title": "Description of Services",
+            "description": "{description_of_services.description}",
+            "subsections": "{description_of_services.subsections}"
+        },
+        "services_disclaimer": {
+            "title": "Services Disclaimer",
+            "content": [
+                {
+                    "type": "paragraph",
+                    "content": "The Engagement Personnel will continue to be employed or engaged by RESOLUTE and, while rendering services to the CLIENT, will continue to work with other personnel at RESOLUTE in connection with unrelated matters that will not unduly interfere with the Services rendered by the Engagement Personnel pursuant to this Agreement. With respect to CLIENT and the Matter, however, Engagement Personnel shall operate under the direction of the Board, and RESOLUTE shall have no liability to the Company for any acts or omissions of the Engagement Personnel related to their performance or non-performance of services at the Board\u2019s direction (so long as such performance or non-performance conforms with such direction) and consistent with the requirements of the Engagement and this Agreement."
+                },
+                {
+                    "type": "paragraph",
+                    "content": "You agree that RESOLUTE shall not have any obligation or responsibility to provide accounting, audit, tax or legal services. Further, RESOLUTE shall have no responsibility to provide fairness or valuation opinions or advice or opinions related to Your solvency unless RESOLUTE specifically is engaged in writing to provide such a valuation or solvency analysis. CLIENT will rely on its own counsel, accountants, employees, executives, and similar advisors to make decisions affecting CLIENT\u2019s legal, accounting, tax and strategic factors. CLIENT understands and agrees that RESOLUTE is not under any express or implied obligation or commitment to underwrite, place for purchase, or acquire any financing, equity, securities, or other any assets or investments on behalf of CLIENT."
+                },
+                {
+                    "type": "paragraph",
+                    "content": "Neither RESOLUTE, nor the Engagement Personnel make any representations or guarantees that, inter alia, (i) an appropriate restructuring proposal or strategic alternative can be formulated for the CLIENT, (ii) any restructuring proposal or strategic alternative presented to the CLIENT\u2019s management or Board will be more successful than all other possible restructuring proposals or strategic alternatives, (iii) restructuring is the best course of action for the CLIENT, or (iv) if formulated, that any proposed restructuring plan or strategic alternative will be accepted by any of the CLIENT\u2019s creditors, shareholders and other stakeholders. Further, neither RESOLUTE, nor the Engagement Personnel, assume any responsibility for the CLIENT\u2019s decision to pursue, or not pursue any business strategy, or to effect, or not to effect any transaction. The Engagement Personnel shall be responsible for implementation only of the restructuring proposal or alternative approved by the Board and only to the extent and in the manner authorized and directed by the Board."
+                }
+            ]
+        }
+    },
+    "client_responsibilities_and_information": {
+        "title": "CLIENT Responsibilities and Information",
+        "content": [
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "CLIENT acknowledges that the successful delivery of Services, and the fees charged for same, are dependent on CLIENT providing RESOLUTE with (i) timely, accurate and complete information within CLIENT\u2019s control; and (ii) timely notice of any direction or any event or change that may impact the Services.  Accordingly, CLIENT agrees to cooperate, assist and permit RESOLUTE to undertake and complete the Services, except where expressly instructed otherwise by You or the Board in writing. To the extent that RESOLUTE\u2019s failure to perform or complete any of the Services is attributable to a lack of assistance, cooperation or consent from CLIENT, RESOLUTE shall not be deemed in breach of this Agreement."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "RESOLUTE will submit requests to You for reasonable and relevant information that RESOLUTE may rely on to perform the Services. You agree to make available to RESOLUTE all such requested information in a timely manner.  Without limiting the foregoing, You agree to make available CLIENT\u2019s officers, directors, employees, managers, general partners, independent accountants, other advisors, agents, and stakeholders as RESOLUTE deems necessary and appropriate to complete the Services. In doing so, You understand that RESOLUTE will not be making comprehensive and extensive information requests that might have the potential to burden CLIENT with unnecessary requests and responses. You, therefore, acknowledge that it is CLIENT\u2019s responsibility to gather and communicate material information and data for RESOLUTE that may impact RESOLUTE\u2019s analysis, conclusions, recommendations, or findings in connection with the Matter and the Services. Any such information and data will not be intentionally withheld."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "CLIENT acknowledges that the successful delivery of Services, and the fees charged for same, are dependent on CLIENT providing RESOLUTE with (i) timely, accurate and complete information within CLIENT\u2019s control; and (ii) timely notice of any direction or any event or change that may impact the Services.  Accordingly, CLIENT agrees to cooperate, assist and permit RESOLUTE to undertake and complete the Services, except where expressly instructed otherwise by You or the Board in writing. To the extent that RESOLUTE\u2019s failure to perform or complete any of the Services is attributable to a lack of assistance, cooperation or consent from CLIENT, RESOLUTE shall not be deemed in breach of this Agreement."
+                    }
+                ]
+            }
+        ]
+    },
+    "fees_and_expenses": {
+        "title": "Fees and Expenses",
+        "description": "{fees_and_expenses.description}",
+        "subsections": "{fees_and_expenses.subsections}"
+    },
+    "non_solicitation": {
+        "title": "Non-solicitation",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "On behalf of itself and its subsidiaries and affiliates and any person which may acquire all or substantially all of its assets, CLIENT agrees that, until two years beyond termination of this Engagement, CLIENT will not solicit, recruit, hire or otherwise engage any Engagement Personnel who worked on the Engagement (each, a \"Solicited Person\"). If CLIENT or any of its subsidiaries or affiliates or any person who acquires all or substantially all of its assets extends an offer of employment to or otherwise engages any Solicited Person, and such offer is accepted, then RESOLUTE shall be entitled to a fee from CLIENT equal to the Solicited Person's hourly CLIENT billing rate at the time of the offer multiplied by 4,000 hours for a Managing Director, 3,000 hours for a Director and 2,000 hours for any other Engagement Personnel. CLIENT acknowledges and agrees that this fee fairly represents the loss that RESOLUTE will suffer if CLIENT breaches this provision. The fee above shall be payable at the time of the Solicited Person's acceptance of employment or engagement."
+            }
+        ]
+    },
+    "term_and_termination": {
+        "title": "Term and Termination",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "The Engagement will commence upon execution of this Agreement and may be terminated with immediate effect by either party with or without cause by written notice to the other party."
+            }
+        ]
+    },
+    "no_third_party_beneficiary": {
+        "title": "No Third-Party Beneficiary",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "The Services to be provided hereunder are intended for use only in connection with the above-captioned Matter and no other purpose. It is expressly understood that any reports or other documents produced by RESOLUTE will not be provided to any third parties, except as agreed by all affected parties or as required by law. You hereby acknowledge that all advice (written or oral) given by RESOLUTE and the Engagement Personnel in connection with this engagement is intended solely for the benefit and use of CLIENT and its affiliates, subsidiaries, officers, members, employees, and agents."
+            }
+        ]
+    },
+    "conflicts": {
+        "title": "Conflicts",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "RESOLUTE has performed an internal search for potential conflicts based on the names of the applicable parties that You have provided to date. RESOLUTE is not currently aware of any relationship that would (a) create an actual conflict of interest with CLIENT or with those parties-in-interest of which You have made RESOLUTE aware, or (b) impair our ability to objectively provide assistance in the Matter. Because RESOLUTE is a consulting firm that serves CLIENTs on a national basis in numerous cases, both in and out of court, it is possible that RESOLUTE may have rendered services to, or continues to have business associations with, other entities or people which had, have or may have relationships with You, including CLIENT's creditors. RESOLUTE reserves the right to provide services to such CLIENTs and to accept future engagements with other parties; provided that, during the term of this engagement, without Your approval, RESOLUTE agrees not to accept any other engagement which would result in RESOLUTE working directly for a creditor of CLIENT where such engagement would result in RESOLUTE taking a position directly adverse to CLIENT in this Matter."
+            }
+        ]
+    },
+    "confidentiality_non_solicitation": {
+        "title": "Confidentiality / Non-Solicitation.",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "Communications between You and RESOLUTE will be treated by RESOLUTE as confidential work product. RESOLUTE and Engaged Personnel providing Services under this Agreement shall keep confidential all non-public information received from You or other companies in conjunction with this engagement and shall (a) not disclose such confidential information, except as requested by CLIENT, its governing bodies, or its legal counsel, or (b) not use such confidential information, except for purposes of this Agreement. Information shall not be deemed confidential if it is: (i) publicly known; (ii) already known to the receiving party; (iii) disclosed by a third party without restriction; (iv) independently developed, or (v) disclosed pursuant to a legal requirement or order. Notwithstanding the foregoing, as of the effective date, You agree that RESOLUTE may mention CLIENT's name, use CLIENT's approved logo and/or provide a general description of the engagement in our printed or electronic materials, or in our marketing presentation to others."
+            }
+        ]
+    },
+    "Indemnification": {
+        "title": "Indemnification.",
+        "content": [
+            {
+                "type": "subsection",
+                "title": "RESOLUTE Indemnified Parties",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "CLIENT agrees to indemnify, defend, protect, and hold harmless RESOLUTE and each of its principals, affiliates, and their respective directors, officers, members, managers, agents, representatives, employees and controlling persons, or any of their respective successors or assigns, including the Engagement Personnel (each, a \"RESOLUTE Indemnified Party\" and collectively, the \"RESOLUTE Indemnified Parties\") from and against any and all losses, claims, damages, liabilities penalties obligations and expenses of any kind or nature whatsoever (\"Losses\") that may be imposed on, incurred by or asserted against a RESOLUTE Indemnified Party relating to the Matter, the Services, or this Agreement, except to the extent that any such Losses arise from a RESOLUTE Indemnified Party's gross negligence, willful misconduct or violation of any applicable law or regulation, as determined by a final, non-appealable judgment of a court of competent jurisdiction."
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": "In the event that the above exception applies, or if a court otherwise does not enforce the foregoing, the relative fault of CLIENT and RESOLUTE Indemnified Parties, and other relevant equitable considerations shall be considered. No person found liable for a fraudulent misrepresentation shall be entitled to contribution hereunder from any person who is not also found liable for such fraudulent misrepresentation."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "Indemnification Procedures",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "Without limiting the previous subsection, CLIENT shall be responsible for the cost of settling any Losses against a RESOLUTE Indemnified Party made with CLIENT's written consent, which shall not be unreasonably withheld. Indemnification also shall include the cost of defense by legal representation reasonably satisfactory to RESOLUTE Indemnified Parties, at no cost to them; provided, however, that if either party's counsel shall reasonably determine that an actual or potential conflict of interest between the RESOLUTE Indemnified Parties and CLIENT prevents counsel from representing both CLIENT and the RESOLUTE Indemnified Parties, then any affected RESOLUTE Indemnified Party shall be entitled to use separate counsel of its own choice, and CLIENT shall promptly pay the RESOLUTE Indemnified Party its reasonable expenses of such separate counsel upon submission of invoices. Nothing herein shall prevent a RESOLUTE Indemnified Party from using separate counsel of its own choice at its own expense."
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": "CLIENT shall indemnify the Engagement Personnel acting as officers (to the same extent as the most favorable indemnification it extends to its officers or directors, whether under CLIENT's bylaws, its certificate of incorporation, by contract or otherwise, and no reduction or termination in any of the benefits provided under any such indemnities shall affect the benefits provided to such indemnified professionals. The Engagement Personnel acting as officers shall be expressly covered as officers under CLIENT's existing director and officer liability insurance policy(ies) and such coverage shall be primary to any insurance or indemnification made available to such indemnified professionals by RESOLUTE or resulting from such indemnified professionals' employment with RESOLUTE. Prior to the effective date of this Engagement and as a condition of RESOLUTE accepting this Engagement, CLIENT shall make such policy(ies) and all amendments thereto available to RESOLUTE for review and approval. CLIENT shall also maintain such insurance coverage for the indemnified professionals for a period of not less than six (6) years following the date of the termination of the indemnified professionals' services under this Agreement. CLIENT shall furnish evidence of any subsequent renewals of the applicable policy(ies) and shall give three (3) days' prior written notice to RESOLUTE of cancellation, non-renewal, or material change in coverage, scope, or amount of such director and officer liability policy. The provisions of this section are in the nature of contractual obligations and no change in applicable law or CLIENT's charter, bylaws or other organizational documents or policies shall affect the indemnified professionals' rights under this Agreement."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "Limitations of Liability",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "For the avoidance of doubt, the obligations of RESOLUTE are solely corporate obligations. Nothing in this Agreement shall subject either party's principals, members, employees, officers or agents to personal liability. To the greatest extent permitted by law, the principals, members, employees, officers and agents of CLIENT and RESOLUTE, respectively, shall be, and hereby are, excused and exculpated from any personal liability."
+                    },
+                    {
+                        "type": "paragraph",
+                        "content": "CLIENT agrees that the Engagement Personnel not acting as officers shall not have any liability to CLIENT or any person asserting any Claims on behalf of CLIENT in connection with this Engagement, the Matter, the Services or any transactions or conduct in connection therewith, except for Losses finally judicially determined to have resulted primarily from the gross negligence or willful misconduct of Engagement Personnel; provided, however, that in no event shall RESOLUTE or any Engagement Personnel's liability to CLIENT or any person asserting claims on behalf of CLIENT exceed, in the aggregate, the fees RESOLUTE actually received from CLIENT pursuant to this Agreement."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "Non-Exclusive Nature and Survival of These Provisions",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "The provisions of this Section X shall be in addition to any indemnity rights, liability limitations and other defenses the parties may otherwise have and shall survive the completion of RESOLUTE's engagement and termination of this Agreement."
+                    }
+                ]
+            }
+        ]
+    },
+    "notices": {
+        "title": "Notices.",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "Any notices under this Agreement shall be documented and delivered in writing, by mail, courier delivery, facsimile transmission or e-mail addressed to these addresses:"
+            },
+            {
+                "type": "paragraph",
+                "content": "If to RESOLUTE:\n\nResolute Commercial Services, LLC\n6750 East Camelback Road, Suite 103\nScottsdale, AZ 85251\nAttn: Eric Anderes\nOr\nEanderes@resolutecommercial.com"
+            },
+            {
+                "type": "paragraph",
+                "content": "if to CLIENT:\n\n{header.company_name}\n {header.address_lines}Attn: {header.client_name}\nOr\n{header.client_email}"
+            },
+            {
+                "type": "paragraph",
+                "content": "These addresses may be changed by delivery of a written notice to the other party. Notices given in the manner provided by this Section shall be considered \"given\" by receipted mail when received or after delivery by a courier or by email transmission (receipt confirmed), as the case may be."
+            }
+        ]
+    },
+    "limitation_of_liability": {
+        "title": "Limitation of Liability.",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "Nothing in this letter shall subject CLIENT\u2019s or RESOLUTE\u2019s principals, members, employees, officers or agents to personal liability. CLIENT\u2019s and RESOLUTE\u2019s principals, members, employees, officers, and agents shall be and hereby are excused and exculpated from any personal liability."
+            }
+        ]
+    },
+    "attorneys_fees": {
+        "title": "Attorneys\u2019 Fees.",
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "If You or RESOLUTE file a suit against the other party regarding this Agreement, the prevailing party shall have the right to collect from the other party its costs of enforcing this Agreement, including reasonable attorneys' fees."
+            }
+        ]
+    },
+    "miscellaneous": {
+        "title": "Miscellaneous.",
+        "content": [
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "This Agreement shall (together with the attached schedule of hourly rates): (a) incorporate the entire understanding of the parties with respect to the subject matter thereof, and (b) not be amended or modified except in writing executed by each of the signatories hereto."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "Section and paragraph headings used herein are for convenience only and shall not be used to interpret any term hereof."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "Delivery of an executed signature page of this letter by facsimile transmission or by transmission of a .pdf file containing an executed copy of this letter through an email message shall be as effective as delivery of a manually executed counterpart thereof."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "No Guaranteed Outcomes or Results",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "RESOLUTE provides accurate, objective, and independent work product. RESOLUTE, however, cannot guarantee or represent as to the admissibility of its work product in courts, mediations, or negotiations. RESOLUTE also makes no guaranty or representations regarding the outcome of any legal proceedings, negotiations, or mediation associated with this Matter."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "Document Retention",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "RESOLUTE's work is inherently evolving and iterative. RESOLUTE does not retain a record of the work undertaken to reach opinions or final work product unless instructed to do so. You will provide RESOLUTE with any instructions regarding document retention or document production procedures that CLIENT expects RESOLUTE to follow, including any legal preservation notices in effect, if any. If no such instructions are provided, RESOLUTE will not retain draft or superseded documentation in the normal course of business. All final work product is the property of CLIENT and will not be retained by RESOLUTE beyond the ordinary course of business without prior authorization."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "Choice of Law and Venue",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "This Agreement shall be deemed to be made in Arizona. This Agreement and all controversies arising from or relating to performance of agreement shall be governed by, and construed and enforced in accordance with, the laws of the State of Arizona without giving effect to such state's rules concerning conflicts of laws that might provide for any other choice of law. CLIENT hereby: (a) irrevocably consents to personal jurisdiction in the state court sitting in the state of Arizona in Maricopa County for the purposes of any suit, action, or other proceeding arising out of this agreement or any of the agreements or transactions contemplated hereby, which may be brought by or against You; (b) waives any objection to venue with respect thereto; (c) agrees that all claims in respect of any such suit, action or proceeding shall be heard and determined in any such court, and that such courts shall have exclusive jurisdiction over any claims arising out of or relating to such agreements or transactions; and (d) irrevocably consents to the service of process of any of the aforementioned courts in any such suit, action or proceeding by the mailing of copies thereof by registered or certified mail, postage prepaid, to You at the address set forth above, such service to become effective two (2) days after such mailing. ANY RIGHT TO TRIAL BY JURY WITH RESPECT TO ANY CLAIM OR ACTION ARISING OUT OF THIS AGREEMENT OR CONDUCT IN CONNECTION WITH RESOLUTE'S ENGAGEMENT IS HEREBY WAIVED."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "This Agreement may be executed in counterparts, each of which together shall be considered a single document. Once executed, this Agreement shall be binding upon CLIENT and RESOLUTE and their respective successors and assigns. This Agreement is not intended to confer any rights upon any shareholder, creditor, member, owner, or partner of CLIENT, or any other person or entity not a party hereto other than (i) the RESOLUTE Indemnified Persons referenced in herein; and (ii) members of the Board."
+                    }
+                ]
+            },
+            {
+                "type": "subsection",
+                "title": "",
+                "content": [
+                    {
+                        "type": "paragraph",
+                        "content": "In the event CLIENT becomes a debtor under Chapter 11 of the United States Bankruptcy Code (the \"Bankruptcy Code\"), CLIENT shall use its best efforts to promptly apply to the bankruptcy court having jurisdiction over the Chapter 11 case or cases (the \"Bankruptcy Court\") for approval of this agreement pursuant to sections 327 and 328 of the Bankruptcy Code and RESOLUTE's retention by CLIENT under the terms of this agreement, and subject to the standard of review provided for in Section 328(a) of the Bankruptcy Code, and not subject to any other standard of review under Section 330 of the Bankruptcy Code. CLIENT shall supply RESOLUTE with a draft of any such application and any proposed order authorizing RESOLUTE's retention that is proposed to be submitted to the Bankruptcy Court sufficiently in advance of the filing or submission of such application or order to enable RESOLUTE and its counsel to review and comment thereon. RESOLUTE shall have no obligation to provide any services under this Agreement in the event that CLIENT becomes a debtor under the Bankruptcy Code unless RESOLUTE\u2019s retention under the terms of this Agreement is approved under Section 328(a) of the Bankruptcy Code by a final order of the Bankruptcy Court no longer subject to appeal, rehearing, reconsideration, or petition for certiorari, and which is acceptable to RESOLUTE in all respects. RESOLUTE acknowledges that in the event that the Bankruptcy Court approves its retention by CLIENT, RESOLUTE\u2019s fees and expenses shall be subject to the jurisdiction and approval of the Bankruptcy Court under Section 328(a) of the Bankruptcy Code and any applicable fee and expense guideline orders. In the event that CLIENT becomes a debtor under the Bankruptcy Code and RESOLUTE\u2019s engagement hereunder is approved by the Bankruptcy Court, such CLIENT shall pay all fees and expenses of RESOLUTE hereunder as promptly as practicable in accordance with the terms hereof. Prior to commencing a Chapter 11 case, CLIENT shall pay all undisputed amounts due and payable to RESOLUTE."
+                    }
+                ]
+            }
+        ],
+        "end_description": "We are pleased to accept this engagement and look forward to working with You. Please confirm that the foregoing is in accordance with Your understanding by signing and returning to us the enclosed duplicate of this letter."
+    },
+    "signature": {
+        "content": [
+            {
+                "type": "paragraph",
+                "content": "RESOLUTE Commercial Services, LLC"
+            },
+            {
+                "type": "paragraph",
+                "content": "An Arizona limited liability company"
+            },
+            {
+                "type": "paragraph",
+                "content": "By: ___________________________"
+            },
+            {
+                "type": "paragraph",
+                "content": "Jeremiah Foster"
+            },
+            {
+                "type": "paragraph",
+                "content": "Principal"
+            },
+            {
+                "type": "paragraph",
+                "content": "AGREED TO AND ACCEPTED:"
+            },
+            {
+                "type": "paragraph",
+                "content": "By: ___________________________"
+            },
+            {
+                "type": "paragraph",
+                "content": "{header.client_name}"
+            },
+            {
+                "type": "paragraph",
+                "content": "{header.title}"
+            }
+        ]
+    }
+}

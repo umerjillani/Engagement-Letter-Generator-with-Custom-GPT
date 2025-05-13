@@ -1,0 +1,110 @@
+# GPT CONFIGURATION METADATA
+# --------------------------
+# name: Financial Advisory Engagement Letter Generator
+# description: Generate professional engagement letters for financial advisory and restructuring services.
+# instructions: Your role is to collect all necessary information from users to create a professional engagement letter for financial advisory and restructuring services. Follow the exact section structure from the template, enhance user inputs, format into proper JSON, and generate a downloadable document.
+# conversation_starters:
+#   - I need to create a financial advisory engagement letter for a new client.
+#   - Help me generate a professional engagement letter for restructuring services.
+#   - I need to draft an agreement for a turnaround consulting engagement.
+#   - Create an engagement letter for my financial advisory firm.
+
+openapi: 3.1.0
+info:
+  title: Engagement Letter Generator API
+  description: API to generate engagement letters based on user-provided data
+  version: v1
+
+servers:
+  - url:   https://8851-115-186-158-79.ngrok-free.app
+
+paths:
+  /api/generate-document:
+    post:
+      summary: Generate engagement letter document
+      description: Generate an engagement letter document
+      operationId: generateDocument
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                header:
+                  type: object
+                  properties:
+                    date:
+                      type: string
+                    client_name:
+                      type: string
+                    title:
+                      type: string
+                    company_name:
+                      type: string
+                    contact_number:
+                      type: string
+                    client_email:
+                      type: string
+                    address_lines:
+                      type: array
+                      items:
+                        type: string
+                subject_line:
+                  type: string
+                salutation:
+                  type: string
+                description_of_services:
+                  type: object
+                  properties:
+                    start_description:
+                      type: string
+                    subsections:
+                      type: array
+                      items:
+                        type: object
+                fees_and_expenses:
+                  type: object
+                  properties:
+                    start_description:
+                      type: string
+                    subsections:
+                      type: array
+                      items:
+                        type: object
+      responses:
+        '200':
+          description: Document generated successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  file_id:
+                    type: string
+                  download_url:
+                    type: string
+                  expires_at:
+                    type: string
+
+  /api/download/{file_id}:
+    get:
+      summary: Download a generated document
+      description: Download a generated document
+      operationId: downloadDocument
+      parameters:
+        - name: file_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Document file
+          content:
+            application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+              schema:
+                type: string
+                format: binary
