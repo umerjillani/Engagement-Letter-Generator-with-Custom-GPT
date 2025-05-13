@@ -67,7 +67,7 @@ project_root/
 ├── document_generator.py    # Main document generation logic
 ├── server.py               # Flask API server
 ├── templates/              # Template files
-│   └── FA.json            # Financial Advisor template
+│   └──structured_document.json  # Financial Advisor template
 ├── temp/                   # Temporary files directory
 ├── requirements.txt        # Python dependencies
 └── README.md              # This file
@@ -179,25 +179,3 @@ servers:
    - Verify your authtoken
    - Ensure port 5000 is not blocked
 
-2. If document generation fails:
-   - Check template file format
-   - Verify user data structure
-   - Check file permissions in temp directory
-
-## 9. Production Deployment
-
-For production deployment:
-1. Use a production-grade WSGI server (e.g., Gunicorn)
-2. Set up proper logging
-3. Implement authentication
-4. Use environment variables for configuration
-5. Set up proper error handling
-6. Use a production-grade database for file management
-
-## 10. License
-
-[Your License Information]
-
-## 11. Support
-
-[Your Support Information] 
